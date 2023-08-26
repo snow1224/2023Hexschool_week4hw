@@ -1,5 +1,14 @@
+// @import "檔案的路徑"
+// 此為示意，同學手寫 CSS 的作業的專案資料夾結構不一定相同，需要注意引入的路徑是否正確 
+
+@import "variables"; // 變數
+@import "reset"; // CSS Reset
+@import "base"; // 全站樣式 img{}, body{}
+@import "mixin"; // mixin
+
+
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
-
+// 頁面
 @import './pages/index.scss';
