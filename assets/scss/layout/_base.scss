@@ -1,0 +1,13 @@
+body {
+    font-family: "Roboto", "Noto Sans TC", sans-serif;
+    line-height: 1.5;
+}
+
+nav{
+	background-color: #AA0601;
+    padding: 16px 0;
+  
+    @media (max-width: 768px) {
+        padding-bottom: 0;
+     }
+}
