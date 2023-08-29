@@ -12,26 +12,14 @@ $h4-font-size: $font-size-base * 1.5; // 24px
 $h5-font-size: $font-size-base * 1.25; // 20px
 $h6-font-size: $font-size-base; // 16px
 
+$spacing : 8px;
+
 // 色彩設定
 $primary: #aa0601;
 $primary-light: #fbf2f2;
 $primary-dark: #650300;
 
-
+$base-font-size: 1rem; // 16px
+$en-font-family: 'Roboto',sans-serif;
+$tc-font-family: 'Noto Sans', sans-serif;
   
-  // 改為 mixin 寫法
-  .container {
-    max-width: 1320px;
-    margin: 0 auto;
-    padding: 0 12px;
-    @include pad{
-      max-width: 720px;
-    }
-    @include mobile{
-      max-width: 372px;
-    }
-  }
-  
-  // 註：斷點設定為示意用，常用斷點可以參考看看 Bootstrap
-  // https://bootstrap5.hexschool.com/docs/5.0/layout/breakpoints/
-  // https://bootstrap5.hexschool.com/docs/5.0/layout/containers/

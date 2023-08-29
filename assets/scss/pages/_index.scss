@@ -1,3 +1,19 @@
-.index-title {
-  font-size: 100px;
+.banner{
+  background: url('../assets/images/home-header.png') no-repeat center center;
+  background-size: cover;
+  height: 840px;
+  span{
+      font-size: 36px;
+      display: block;
+      color:$primary-dark;
+  }
+  @include mobile{
+    background: url('../assets/images/home-header-sm.png') no-repeat center center;
+      height: 394px;
+  }
+}
+
+// 將bootstrap5 的btn覆蓋不要圓角
+.btn{
+  border-radius: 0px;
 }

@@ -7,14 +7,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
     <title>眼鏡形象官網</title>
   </head>
   <body>
     <%- include('./layout/header'); -%>
 
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
+    <%- include('./layout/macro/header'); -%>
+
+    <%- include('./layout/macro/intro'); -%>
+
+    <%- include('./layout/macro/classical'); -%>
+
 
     <%- include('./layout/footer'); -%>
 

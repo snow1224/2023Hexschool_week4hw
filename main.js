@@ -4,4 +4,5 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 // https://stackoverflow.com/questions/68225754/bootstrap-icons-does-not-appear-in-the-front-end-when-used-in-vuejs-template
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
+
 console.log("Hello world!");
