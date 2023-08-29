@@ -1,0 +1,14 @@
+.cobrand{
+    background-image: url('../assets/images/index-bg.png');
+    background-size: cover;
+    @include pad{
+        background-image: url('../assets/images/index-bg-md.png');
+    }
+    @include mobile{
+        background-image: url('../assets/images/index-bg-sm.png');
+    }
+}
+
+.bg-white{
+    background-color: white;
+}
