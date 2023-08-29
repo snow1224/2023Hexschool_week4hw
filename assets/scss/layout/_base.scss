@@ -10,7 +10,6 @@ body {
 }
 
 nav{
-	background-color: #AA0601;
     padding: 16px 0;
   
     @media (max-width: 768px) {
@@ -26,6 +25,10 @@ img {
 
 h1, h2, h3{
     font-family: "Noto Sans TC", "bold";
+}
+
+h5{
+    font-family: "Noto Sans TC", "medium";
 }
 
 .flex-wrap {

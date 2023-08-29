@@ -22,6 +22,8 @@
 @import './layout/macro/intro';
 @import './layout/macro/classical';
 @import './layout/macro/cobrand';
+@import './layout/macro/concat';
 
 // 頁面
-@import './pages/index.scss';
+@import './pages/index';
+@import './pages/intro';

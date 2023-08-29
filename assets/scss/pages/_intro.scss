@@ -1,0 +1,33 @@
+.border-active{
+    border-bottom: 2px solid $primary;
+}
+
+.primary-box{
+    border-radius: 4px;
+    background-color: $primary;
+    width: 24px;
+    height: 24px;
+    border: 1px solid $primary;
+}
+
+.primary-dark-box{
+    border-radius: 4px;
+    background-color: $primary-dark;
+    width: 24px;
+    height: 24px;
+    border: 1px solid $primary-dark;
+}
+
+.page-item{
+
+    .active{
+        background-color: black;
+    }
+    &:hover{
+        background-color: black;
+    }
+}
+
+.bg-gray-light{
+    background-color: $primary-light;
+}
