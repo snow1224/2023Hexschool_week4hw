@@ -1,11 +1,11 @@
 .cobrand{
-    background-image: url('../assets/images/index-bg.png');
+    background-image: url('/2023Hexschool_week4hw/assets/images/index-bg.png');
     background-size: cover;
     @include pad{
-        background-image: url('../assets/images/index-bg-md.png');
+        background-image: url('/2023Hexschool_week4hw/assets/images/index-bg-md.png');
     }
     @include mobile{
-        background-image: url('../assets/images/index-bg-sm.png');
+        background-image: url('/2023Hexschool_week4hw/assets/images/index-bg-sm.png');
     }
 }
 

@@ -1,5 +1,5 @@
 .banner{
-  background: url('../assets/images/home-header.png') no-repeat center center;
+  background: url('/2023Hexschool_week4hw/assets/images/home-header.png') no-repeat center center;
   background-size: cover;
   height: 840px;
   span{
@@ -8,7 +8,7 @@
       color:$primary-dark;
   }
   @include mobile{
-    background: url('../assets/images/home-header-sm.png') no-repeat center center;
+    background: url('/2023Hexschool_week4hw/assets/images/home-header-sm.png') no-repeat center center;
       height: 394px;
   }
 }
