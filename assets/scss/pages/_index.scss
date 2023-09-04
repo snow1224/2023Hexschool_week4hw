@@ -1,5 +1,5 @@
 .banner{
-  background: url('../assets/images/home-header.png') no-repeat center center;
+  background: url('https://github.com/snow1224/2023Hexschool_week4hw/blob/master/assets/images/home-header.png?raw=true') no-repeat center center;
   background-size: cover;
   height: 840px;
   span{
@@ -8,7 +8,7 @@
       color:$primary-dark;
   }
   @include mobile{
-    background: url('../assets/images/home-header-sm.png') no-repeat center center;
+    background: url('https://github.com/snow1224/2023Hexschool_week4hw/blob/master/assets/images/home-header-sm.png?raw=true') no-repeat center center;
       height: 394px;
   }
 }
